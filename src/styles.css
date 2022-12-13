@@ -1,0 +1,41 @@
+h1,
+body {
+  text-align: center;
+  margin: 0px;
+  height: 100vh;
+}
+body {
+  background-image: linear-gradient(
+    rgba(228, 47, 219, 0.5),
+    rgba(184, 184, 141, 0.5)
+  );
+  flex-direction: center;
+  justify-content: space-between;
+  font-size: 25px;
+  display: grid;
+}
+h1 {
+  font-family: Courier;
+  height: 20mm;
+  background-color: black;
+  padding-left: 430px;
+  padding-top: 50px;
+  font-size: 50px;
+  color: white;
+  font-family: cursive;
+}
+#image,
+#image2 {
+  position: absolute;
+  margin: 0;
+}
+#image {
+  width: 35%;
+  left: 65%;
+  top: 0%;
+}
+#image2 {
+  top: 60%;
+  left: 60%;
+  width: 30%;
+}
